@@ -10,19 +10,19 @@ The Apps Script code was written as an extension of a Google Sheet. To do this, 
 Once a copy of the sheet is in use, a sheet contains all pertinent instructions as well as a place for the test email. Instructions for use have also been included below.
 
 ### Instructions
-1. Input list of recipients and their respecive emails in the "Recipients" tab
-2. Write the email body in the "Email Writeup" tab
-    Use Column A to denote what type of email element is included (types listed at the bottom of this tab)
-    Use Column B to include the associated text
-        URLs to websites will automatically be converted to clickable links in the email once sent
-        Separate each body paragraph into individual rows
-    Use {name} as a placeholder to be replaced with the recipient's name in the email body
-    Add any other variables to be replaced in the email using the same curly bracket notation as the {name} placeholder in the "Recipients" tab
-        Include the respective added variables in the same tab
-        Separate variables must be created for different capitalization schemes.
-3. [OPTIONAL] Select "Test Send" from the "Email Functions" menu to send the email to the address listed in C2 of this tab
-    A sample email generated from the row 2 of the "Recipients" tab will be sent to the test email
-4. Select "Send Emails" from the "Email Functions" menu to send emails to all recipients and log send time
+	1. Input list of recipients and their respecive emails in the "Recipients" tab
+	2. Write the email body in the "Email Writeup" tab
+		Use Column A to denote what type of email element is included (types listed at the bottom of this tab)
+		Use Column B to include the associated text
+			URLs to websites will automatically be converted to clickable links in the email once sent
+			Separate each body paragraph into individual rows
+		Use {name} as a placeholder to be replaced with the recipient's name in the email body
+		Add any other variables to be replaced in the email using the same curly bracket notation as the {name} placeholder in the "Recipients" tab
+			Include the respective added variables in the same tab
+			Separate variables must be created for different capitalization schemes.
+	3. [OPTIONAL] Select "Test Send" from the "Email Functions" menu to send the email to the address listed in C2 of this tab
+		A sample email generated from the row 2 of the "Recipients" tab will be sent to the test email
+	4. Select "Send Emails" from the "Email Functions" menu to send emails to all recipients and log send time
 
 ### Email Element Types
     SUBJECT; Subject of email. Default email signatures are not included in the email.
