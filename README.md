@@ -5,7 +5,7 @@ This is a generic copy of the Google App Script project I wrote for the Universi
 This project has been used to mass-send personalized emails containing embedded URLs, embedded images, and Google Drive attachments. In addition, emails sent by the generator can be automatically tagged per user specification.
 
 ## Using the Project
-The Apps Script code was written as an extension of a Google Sheet. To do this, open a copy of the spreadsheet -> Extensions -> Apps Script.
+The Apps Script code was written as an extension of a Google Sheet. To do this, open a copy of the spreadsheet -> Extensions -> Apps Script, and import the code there.
 
 Once a copy of the sheet is in use, a sheet contains all pertinent instructions as well as a place for the test email. Instructions for use have also been included below.
 
@@ -51,3 +51,4 @@ Once a copy of the sheet is in use, a sheet contains all pertinent instructions 
 ## Miscellaneous Information
 1. [Apps Script reference page](https://developers.google.com/apps-script/reference)
 2. If an error occurs, check file permissions.
+3. The script will need to be authorized, this prompt will occur upon running the file.
