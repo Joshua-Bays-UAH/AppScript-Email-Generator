@@ -52,3 +52,4 @@ Once a copy of the sheet is in use, a sheet contains all pertinent instructions 
 1. [Apps Script reference page](https://developers.google.com/apps-script/reference)
 2. If an error occurs, check file permissions.
 3. The script will need to be authorized, this prompt will occur upon running the file.
+4. If an email is not sending, check if it has already been marked as sent in the recipients sheet (or disable duplicate checking).
